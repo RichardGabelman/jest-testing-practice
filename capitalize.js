@@ -1,4 +1,3 @@
-// capitalize
 export function capitalize(str) {
   if (str === ``) {
     return ``;
@@ -8,14 +7,3 @@ export function capitalize(str) {
   }
   return `${str[0].toUpperCase()}${str.slice(1)}`;
 }
-
-// reverseString
-export function reverseString(str) {
-  return [...str].reverse().join("");
-}
-
-// calculator
-
-// caesarCipher
-
-// analyzeArray
